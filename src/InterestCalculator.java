@@ -15,8 +15,8 @@ public class InterestCalculator {
         interset_rate = input.nextDouble();
 
         double total_interset = 0;
-        for (int i = 0; i < 3; i++) {
-            total_interset = money * (interset_rate / 100) / 12 * 3;
+        for (int i = 0; i < month; i++) {
+            total_interset = money * (interset_rate / 100) / 12 * month;
         }
 
         System.out.println("Total interset: " + total_interset);
